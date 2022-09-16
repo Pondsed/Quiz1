@@ -28,14 +28,22 @@ else if (menu == "b"){
         Console.WriteLine("--------------------");
         Console.WriteLine(U_name[i]);
         Console.WriteLine(UA_name[i]);
-        Console.WriteLine(UA_surname);
-        Console.WriteLine(ID_Card);
+        Console.WriteLine(UA_surname[i]);
+        Console.WriteLine(ID_Card[i]);
         Console.WriteLine("--------------------");
     
 }
 
         }
-
+else if (menu == "c"){
+    for (int i = 0; i < 5;i++){
+        if(i == 1){
+            if(FT[1] > FT[2]){
+                
+            }
+        }
+    }
+}
         }
     }
     
